@@ -1,0 +1,17 @@
+//A year is a leap year if it is divisible by 4 but not by 100, or it is divisible by 400
+
+package Exercise;
+
+class exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int year = 2040;
+
+		System.out.print((year%4 == 0) && (year % 100 != 0)||(year%400 == 0));
+		
+		
+	}
+
+}
